@@ -10,3 +10,6 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "48h"
+[".config/nvim"]
+    type = "git-repo"
+    url = "git@github.com:MatiasDuhalde/kickstart.nvim.git"
