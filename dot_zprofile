@@ -1,0 +1,9 @@
+# Load Cargo env
+. "$HOME/.cargo/env"
+
+# Set the EDITOR variable
+export EDITOR=nvim
+
+# SOFA
+export SOFA_ROOT=$HOME/SOFA/v23.06.00
+export PYTHONPATH=$SOFA_ROOT/plugins/SofaPython3/lib/python3/site-packages:$PYTHONPATH
