@@ -88,6 +88,9 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+# Color less
+export LESS='-R --use-color -Dd+r$Du+b$'
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -99,6 +102,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Color ip command
+alias ip='ip -color=auto'
 
 # Load NVM script
 source /usr/share/nvm/init-nvm.sh
