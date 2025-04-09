@@ -3,3 +3,9 @@ export EDITOR=nvim
 
 # SSH agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
+# UWSM auto start
+if uwsm check may-start && uwsm select; then
+    exec uwsm start default
+fi
+
